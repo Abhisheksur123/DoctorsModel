@@ -1,0 +1,22 @@
+// Doctor Model
+{
+    "id": "1",
+    "name": "Dr. John Doe",
+    "location": "XYZ Clinic",
+    "schedule": {
+      "Monday": ["6:00 PM", "7:00 PM"],
+      "Tuesday": ["6:00 PM", "7:00 PM"],
+      // ... (for all days of the week)
+    },
+    "maxPatientsPerSlot": 3
+  }
+  
+  // Appointment Model //
+  {
+    "id": "1",
+    "doctorId": "1",
+    "patientName": "Alice",
+    "dateTime": "2023-10-10 18:00:00",
+    // ... (other appointment details)
+  }
+  
